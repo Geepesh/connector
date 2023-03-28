@@ -1,30 +1,97 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<style>
-.grid-container {
-  display: grid;
-  grid-template-columns: auto;
-  
-  padding: 10px;
-}
-.grid-item {
-  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .fa {
   padding: 20px;
-  font-size: 30px;
+  font-size: 45px;
+  width: 50px;
+  height : 50px;
   text-align: center;
+  text-decoration: none;
+  margin-right: 2%;
 }
-h3{
-    margin-top : 5%
+.fa:hover {
+    opacity: 0.7;
 }
-</style>
+.fa-facebook {
+  
+  color: rgb(61, 18, 234);
+}
+.fa-twitter {
+  
+  color: rgb(20, 147, 238);
+}
+.fa-google {
+  color: #dd4b39;
+  
+}
+.fa-instagram {
+  color: #d729cc;
+  
+}
+.fa-youtube {
+  color: #f10dcb;
+  
+}
+@media screen and (min-width : 404px) {
+    .fa{
+        margin-right : 4%;
+    }
+}
+@media screen and (min-width : 442px) {
+    .fa{
+        margin-right : 5%;
+    }
+}
+@media screen and (min-width : 463px) {
+    .fa{
+        margin-right : 6%;
+    }
+}
+@media screen and (min-width : 760px) {
+    .fa{
+        margin-right : 5%;
+    }
+}
+    </style>
 </head>
+
 <body>
 
-<div class="grid-container">
-  <a href="https://npb-ledger.cyclic.app"><div class="grid-item"><img src="npb.png" alt=""><h3>Ledger ></h3></div></a>
-  <a href="https://npb.cyclic.app"><div class="grid-item"><img src="npb.png" alt=""><h3>Credit Management ></h3></div></a>
+
+    <div class="grid-container">
+    <div class="grid-item">
+        <br><a href="https://npb-ledger.cyclic.app"><img src="/ledger.png" alt="" srcset=""></a>
+    
 </div>
+<div class="grid-item">
+        <br><a href="https://npb.cyclic.app"><img src="/credit.png" alt="" srcset=""></a>
+
+    </div>
+
+    </div>
+    <div id="footer">
+        <center>
+                <a href="https://twitter.com/NarmadaChanchal" class="fa fa-twitter"></a>
+                <a href="mailto:narmadachanchal@gmail.com" class="fa fa-google"></a>
+                <a href="https://instagram.com/narmada_pustak_bhandar" class="fa fa-instagram"></a>
+    </center>
+    </div>
 
 </body>
+
 </html>
+
+<!--
+<div class="grid-container">
+  <a href="https://npb-ledger.cyclic.app"><div class="grid-item"><img src="/ledger.png" alt=""></a></div>
+  <a href="https://npb.cyclic.app"><div class="grid-item"><img src="/credit.png" alt=""></div></a>
+</div>
+-->
